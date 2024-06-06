@@ -1,12 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import React from "react";
 
-import "./globals.css";
-
-import { cn } from "@/lib/utils";
-
-const inter = Inter({ subsets: ["latin"] });
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
     title: "Next JS (TypeScript) Starter",
@@ -14,16 +10,16 @@ export const metadata: Metadata = {
         "GitHub starter template for building modern web applications using Next.js (TypeScript), React, and Tailwind. It includes all the essential setup and configurations to get you started quickly.",
 };
 
-export default function RootLayout({
+export default function MainLayout({
     children,
 }: Readonly<{
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
-            <body className={cn(inter.className, "bg-zinc-50")}>
-                {children}
-            </body>
-        </html>
+        <React.Fragment>
+            <Navbar />
+            <main>{children}</main>
+            <Footer />
+        </React.Fragment>
     );
 }
