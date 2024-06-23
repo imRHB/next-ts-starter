@@ -36,7 +36,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to see your application in action or check your terminal and follow the instructions.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see your application in action or take a look at [https://template.shadcn.next-ts.rhbabu.dev](https://template.shadcn.next-ts.rhbabu.dev).
 
 ## shadcn/ui Config
 

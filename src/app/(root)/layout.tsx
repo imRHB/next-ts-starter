@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import React from "react";
 
-import Footer from "@/components/footer";
-import Navbar from "@/components/navbar";
+import Footer from "@/components/shared/footer";
+import Navbar from "@/components/shared/navbar";
 
 export const metadata: Metadata = {
     title: "Next JS (TypeScript) Starter",
