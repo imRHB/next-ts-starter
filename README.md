@@ -30,4 +30,4 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to see your application in action.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see your application in action or check your terminal and follow the instructions.
