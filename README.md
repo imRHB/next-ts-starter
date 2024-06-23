@@ -18,7 +18,13 @@ git clone https://github.com/imRHB/next-ts-starter
 cd next-ts-starter
 ```
 
-**3. Install dependencies**:
+**3. Checkout to the `shadcn` branch**:
+
+```bash
+git checkout shadcn
+```
+
+**4. Install dependencies**:
 
 ```bash
 npm install
@@ -31,3 +37,9 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to see your application in action or check your terminal and follow the instructions.
+
+## shadcn/ui Config
+
+-   **Style** : Default
+-   **Base Color**: Zinc
+-   **CSS Variables**: Yes
